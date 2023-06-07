@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon -e js --watch src --exec \"yarn run start\"",
+    "lint": "eslint . -c 'eslint.yml' --ext .js,jsx"
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "nodemon": "^2.0.22"
+  }
+}
